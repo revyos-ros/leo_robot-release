@@ -2,6 +2,35 @@
 Changelog for package leo_fw
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.0 (2025-05-28)
+------------------
+* Change wheel_odom_with_covariance topic name to wheel_odom (`#30 <https://github.com/LeoRover/leo_robot-ros2/issues/30>`_)
+* Contributors: Błażej Sowa
+
+2.2.0 (2025-05-23)
+------------------
+
+2.1.3 (2025-05-08)
+------------------
+* Use target_link_libraries instead of ament_target_dependencies (`#24 <https://github.com/LeoRover/leo_robot-ros2/issues/24>`_)
+* Contributors: Błażej Sowa
+
+2.1.2 (2025-05-08)
+------------------
+* Update `robot_frame` param (`#22 <https://github.com/LeoRover/leo_robot-ros2/issues/22>`_)
+* Contributors: Aleksander Szymański
+
+2.1.1 (2025-04-30)
+------------------
+
+2.1.0 (2025-04-30)
+------------------
+* Include leocore firmware version 2.0.0 (`#20 <https://github.com/LeoRover/leo_robot-ros2/issues/20>`_)
+* Add `leo_filters` package (`#17 <https://github.com/LeoRover/leo_robot-ros2/issues/17>`_)
+* Add parameter handling based on rover's model (`#19 <https://github.com/LeoRover/leo_robot-ros2/issues/19>`_)
+* Add missing type annotations in `leo_fw` package nodes (`#18 <https://github.com/LeoRover/leo_robot-ros2/issues/18>`_)
+* Contributors: Aleksander Szymański, Błażej Sowa, Jan Hernas
+
 2.0.0 (2024-11-18)
 ------------------
 * Update firmware binaries (`#11 <https://github.com/LeoRover/leo_robot-ros2/issues/11>`_) (`#12 <https://github.com/LeoRover/leo_robot-ros2/issues/12>`_)
